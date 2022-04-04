@@ -7,6 +7,10 @@ const exphbs = require('express-handlebars');
 const hbs = exphbs.create({
     helpers
 });
+
+const app = express();
+const PORT = process.env.PORT || 3001;
+
 const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
@@ -21,9 +25,6 @@ const sess = {
         expiration: 1000 * 60 * 30 // will expire after 30 minutes
     })
 };
-
-const app = express();
-const PORT = process.env.PORT || 3001;
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');

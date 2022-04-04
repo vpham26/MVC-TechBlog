@@ -1,7 +1,7 @@
 {
   "name": "tech-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [Description](#project-description)\r - [Tools](#tools)\r - [Mock Up](#mock-up)\r - [Usage](#usage)\r - [Licence](#licence)",
   "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -28,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/vpham26/MVC-TechBlog/issues"
   },
-  "homepage": "https://github.com/vpham26/MVC-TechBlog#readme"
+  "homepage": "https://github.com/vpham26/MVC-TechBlog#readme",
+  "devDependencies": {}
 }

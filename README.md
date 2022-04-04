@@ -25,7 +25,7 @@ This project uses the Model-View-Controller (MVC) paradigm to create a blog-styl
 
 ## Mock Up
 
-
+* https://mvc-tech-blog21.herokuapp.com/
 
 ## Usage
 The application is deployed on Heroku:

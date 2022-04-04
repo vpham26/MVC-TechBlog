@@ -1,11 +1,11 @@
 :root {
    --primary:  rgb(240, 250, 255);  
    --essential: rgb(225, 242, 251);  
-   --secondary:  rgb(90, 175, 218); 
-   --tertiary: rgb(4, 87, 136);  
-   --light-dark: rgb(3, 113, 160);  
-   --dark:  rgb(4, 90, 139);  
-   --superdark:  rgb(4, 80, 129);  
+   --secondary:  rgb(169, 218, 90); 
+   --tertiary: rgb(127, 136, 4);  
+   --light-dark: rgb(118, 160, 3);  
+   --dark:  rgb(54, 139, 4);  
+   --superdark:  rgb(92, 129, 4);  
    --gray_tone_light: rgb(161, 209, 230) ; /*#b0d5e8;*/
    --gray_tone_medium: rgb(71, 107, 125);
    --weather_light: rgb(220, 242, 253);  

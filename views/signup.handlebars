@@ -1,24 +1,20 @@
-<section class="sign-in-page">
-    <div class="form-heading">
-        <h1>Sign Up</h1>
-    </div>
-    <div class="form-section">
-        <form class="signup-form">
-            <div>
-                <label for="username-signup">Select a Username</label>
-                <input type="text" class="entry-field" id="username-signup" />
-            </div>
-            <div>
-                <label for="password-signup">Select a password</label>
-                <input type="password" class="entry-field" id="password-signup" />
-            </div>
-            <div>
-                <button type="submit" class="login-signup-btn">Sign Up!</button>
-            </div>
-        </form>
-    </div>
+<div class="card"> 
+  <div class="card_header">
+    <h5>Sign Up</h5> 
+  </div> 
+  <div class="card_body">
+   <form id="signup-form">
+      <label for="username-signup" class="form_label">Username:</label>
+      <input type="text" id="username-signup" class="form_input" autocomplete="off"/>
 
-    <a href="/login" class="login-link">log in instead</a>
-</section>
+      <label for="email-signup" class="form_label">Email:</label>
+      <input type="text" id="email-signup" class="form_input" autocomplete="off"/>
 
+      <label for="password-signup" class="form_label">Password:</label>
+      <input type="password" id="password-signup" class="form_input" autocomplete="off"/>
+
+      <button type="submit" class="btn">Sign Up!</button> 
+   </form>       
+  </div>
+</div>
 <script src="/javascript/signup.js"></script>

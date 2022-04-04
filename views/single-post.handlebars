@@ -1,22 +1,20 @@
-<a href="/dashboard" class="go-back"> &larr; Back to dashboard</a>
-<br>
-<br>
+{{> post-info post}} 
 
-{{> post-info post}}
+{{> comments post.mod14comments}} 
 
 {{#if loggedIn}}
-<form class="comment-form">
-    <div>
-        <textarea name="comment-body"></textarea>
-    </div>
-
-    <div>
-        <button type="submit">add comment</button>
-    </div>
-</form>
-{{/if}}
-
-{{> comments post.comments}}
+<section class="card" id="new-post-form"  > 
+   <div class="card_header">
+      <h5>Add a Comment</h5> 
+   </div> 
+   <div class="card_body">
+      <form id="comment-form">
+         <textarea name="comment-body" class="form_textarea"></textarea>
+         <button type="submit" class="btn">+ Comment</button>
+      </form>  
+   </div>
+</section>
+{{/if}} 
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
